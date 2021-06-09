@@ -1,0 +1,74 @@
+:root {
+    --bg: rgb(212, 212, 212);
+    --shadow: 4px 4px 15px -5px #000000;
+  }
+
+.container{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 600px;
+    background-color: var(--bg);
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+/* .Header{
+
+} */
+
+.inputText{
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: rgb(150, 150, 252);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+button:hover{background-color: rgb(171, 171, 250);}
+.done{
+    text-decoration: line-through;
+}
+
+.checkBtn{
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+}
+.checkBtn:hover{background-color: rgba(182, 182, 182, 0.199);}
+
+/* .itemText{
+    margin-bottom: 10%;
+} */
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+.listItem{
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    justify-content: center; align-items: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.closeBtn{
+    cursor: pointer;
+    padding: 12px; padding-left: 15px;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.closeBtn:hover{background-color: rgba(182, 182, 182, 0.253);}
+
+.done{background-color: rgb(131, 131, 250);}
